@@ -68,6 +68,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'PT Serif', serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -2387,6 +2388,26 @@ textarea.form-control-sm {
 }
 textarea.form-control-lg {
   min-height: calc(1.5em + 2rem + 2px);
+}
+
+.list-description{
+  width:75%;
+  height:300px;
+}
+.list-description h4{
+  color:rgb(100, 99, 99)
+}
+.list-description h4{
+  color:rgb(100, 99, 99)
+}
+.list-description .list-item{
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-description{
+  color:#1954B3;
+  margin-left:150px;
 }
 
 .form-control-color {
@@ -11396,4 +11417,11 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.advertisement-content-left{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
