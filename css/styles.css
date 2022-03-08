@@ -409,6 +409,8 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
+
+
 @media (min-width: 1200px) {
   legend {
     font-size: 1.5rem;
@@ -2403,7 +2405,17 @@ textarea.form-control-lg {
   height: 1.5em;
   border-radius: 0.25rem;
 }
-
+.demo{
+  position:absolute;
+  top: -100px;
+  left: 55em;
+}
+/* Ito po myy myy ayusin mo po */
+/* .header-title{
+  position:relative;
+  top:150px;
+  left: 100px;
+} */
 .form-select {
   display: block;
   width: 100%;
@@ -4057,7 +4069,7 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .navbar-brand img{
-  height: 80px;
+  height: 60px;
 }
 .navbar-nav {
   display: flex;
@@ -7675,8 +7687,8 @@ textarea.form-control-lg {
 }
 
 .text-center {
-  text-align: center !important;
-}
+  text-align: left !important;
+} 
 
 .text-decoration-none {
   text-decoration: none !important;
@@ -11310,6 +11322,9 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 header.masthead:before {
   content: "";
