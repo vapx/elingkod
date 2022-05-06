@@ -88,6 +88,7 @@ body {
   background-color: var(--bs-body-bg);
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -264,6 +265,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
+  background-color: red;
   font-size: 0.875em;
 }
 pre code {
