@@ -1,0 +1,157 @@
+@media only screen and (max-width: 320px) { 
+  body {
+    overflow-x: hidden;
+  } 
+
+  .header-title {
+    text-align: center;
+  }
+  
+  .demo {
+    left: 12.5em;
+    height: 15em;
+    top: 16.5em;
+  }
+  
+  .text-description {
+    margin-left: 1.5em;
+  }
+  
+  .advertisement-content-left {
+    height: 90em;
+  }
+  
+  .icon-feature-section-img {
+    height: 10em;
+  }
+  
+  .features-image-strategy {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) { 
+  body {
+    overflow-x: hidden;
+  } 
+  
+  .header-title {
+    text-align: center;
+  }
+  
+  .demo {
+    left: 12.5em;
+    height: 15em;
+    top: 16.5em;
+  }
+  
+  .text-description {
+    margin-left: 1.5em;
+  }
+  
+  .advertisement-content-left {
+    height: 90em;
+  }
+  
+  .icon-feature-section-img {
+    height: 10em;
+  }
+  
+  .features-image-strategy {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) { 
+  body {
+    overflow-x: hidden;
+  } 
+  
+  .header-title {
+    text-align: center;
+  }
+  
+  .demo {
+    left: 17em;
+    height: 15em;
+    top: 15em;
+  }
+  
+  .text-description {
+    margin-left: 3.5em;
+  }
+  
+  .advertisement-content-left {
+    height: 63em;
+  }
+  
+  .icon-feature-section-img {
+    height: 10em;
+  }
+  
+  .features-image-strategy {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) { 
+  body {
+    overflow-x: hidden;
+  } 
+  
+  .header-title {
+    text-align: center;
+  }
+  
+  .demo {
+    left: 32.5em;
+    height: 20em;
+    top: 20em;
+  }
+  
+  .text-description {
+    margin-left: 10em;
+  }
+  
+  .icon-feature-section-img {
+    height: 20em;
+  }
+  
+  .features-image-strategy {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) { 
+  body {
+    overflow-x: hidden;
+  } 
+  
+  .e-lingkod-navbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    width: 100%;
+  }
+  
+  .demo {
+    left: 60em;
+    height: 40em;
+    top: -2.5em;
+  }
+  
+  .text-description {
+    margin-left: 3.5em;
+  }
+  
+  .icon-feature-section-img {
+    height: 28.125em;
+  }
+  
+  .features-image-strategy {
+    width: 100%;
+  }
+}
